@@ -1,9 +1,13 @@
 
 ## Big Data Documents
 
-open source
+Free course BigData
 
+## Course Structure 
+![structure](https://github.com/eskazemi/Big-Data/blob/main/structure.png)
+## video
 ![Alt text](https://github.com/eskazemi/Big-Data/blob/main/IMG_20210924_204717_719.JPG)
+
 ## Documentation
 
 [NOSQL](https://linktodocumentation)
@@ -19,11 +23,12 @@ open source
 [RDBMS](https://linktodocumentation)
 -
 [SQL](https://linktodocumentation)
+[SQL Trigger](https://linktodocumentation)
 [index](https://linktodocumentation)
 [PostgreSQL](https://linktodocumentation)
 [MySQL](https://linktodocumentation)
 [MariaDB](https://linktodocumentation)
-[Oracel](https://linktodocumentation)
+[SQL Server](https://linktodocumentation)
 
 [Apache Hadoop and Map Reduce](https://linktodocumentation)
 -
@@ -34,14 +39,16 @@ open source
 [Hadoop - ]()
 [Map Reduce]()
 
-## Other
+[Concepts Basic and system design](https://linktodocumentation)
+-
+- Replication
 - CAP Theory
-- DBMS
-- DistributedSystem
+- Consistence Hashing
+- Distributed System
 - Json Vs Bson
 - load balancer
 - NOSQL vs SQL
-- sharding
+- Sharding
 - Transaction
 
 
@@ -49,6 +56,6 @@ open source
 
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/eskazemi)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eskazemi/)
+
 
