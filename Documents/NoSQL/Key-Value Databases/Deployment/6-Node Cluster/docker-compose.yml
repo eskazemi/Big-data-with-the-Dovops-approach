@@ -1,0 +1,64 @@
+services:
+  redis-node-1:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7001"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-node-2:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7002"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-node-3:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7003"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-node-4:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7004"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-node-5:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7005"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-node-6:
+    image: redis:7.2.3
+    command: ["/tmp/redis.sh", "10.11.12.13", "7006"]
+    volumes:
+      - ./redis.sh:/tmp/redis.sh
+  redis-cluster-creator:
+    image: redis:7.2.3
+    command: redis-cli -a 'SUPER_SECRET_PASSWORD' --cluster create 10.11.12.13:7001 10.11.12.13:7002 10.11.12.13:7003 10.11.12.13:7004 10.11.12.13:7005 10.11.12.13:7006 --cluster-replicas 1 --cluster-yes
+    depends_on:
+      - redis-node-1
+      - redis-node-2
+      - redis-node-3
+      - redis-node-4
+      - redis-node-5
+      - redis-node-6
+      - redis-proxy
+  redis-proxy:
+    image: haproxytech/haproxy-alpine:2.4
+    volumes:
+      - ./haproxy:/usr/local/etc/haproxy:ro
+    ports:
+      - 8404:8404
+      - 7001-7006:9001-9006
+      - 7101-7106:9101-9106
+    depends_on:
+      - redis-node-1
+      - redis-node-2
+      - redis-node-3
+      - redis-node-4
+      - redis-node-5
+      - redis-node-6
+  redis-insight:
+    container_name: redis-insight
+    image: redislabs/redisinsight:1.14.0
+    ports:
+      - 8001:8001
+    depends_on:
+      - redis-proxy
