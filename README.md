@@ -6,19 +6,19 @@ Free course BigData
 ## Course Structure 
 ![structure](https://github.com/eskazemi/Big-Data/blob/main/structure.png)
 ## video
-![Alt text](https://github.com/eskazemi/Big-Data/blob/main/IMG_20210924_204717_719.JPG)
+<img src="https://github.com/eskazemi/Big-Data/blob/main/IMG_20210924_204717_719.JPG" alt="drawing" width="200"/>
 
 ## Documentation
 
 [NOSQL](https://linktodocumentation)
 -
-[Key-Value Databaes](https://linktodocumentation)
-[Document Database](https://linktodocumentation)
-[Graph Database](https://linktodocumentation)
-[Wide-column Databases -](https://linktodocumentation)
-[Multi Model Databases -](https://linktodocumentation)
-[Time Series DBMS -](https://linktodocumentation)
-[Suchmaschinen DBMS](https://linktodocumentation)
+[Key-Value Databaes](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/NoSQL/Key-Value%20Databases)
+[Document Database]()
+[Graph Database]()
+[Wide-column Databases]()
+[Multi Model Databases]()
+[Time Series DBMS]()
+[Suchmaschinen DBMS]()
 
 [RDBMS](https://linktodocumentation)
 -
@@ -40,7 +40,7 @@ Free course BigData
 [Map Reduce]()
 
 [Concepts Basic and system design](https://linktodocumentation)
--
+- [DNS](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/Concepts%20Basic%20and%20System%20Design)
 - Replication
 - CAP Theory
 - Consistence Hashing
@@ -57,5 +57,4 @@ Free course BigData
 
 ## 🔗 Links
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eskazemi/)
-
 
