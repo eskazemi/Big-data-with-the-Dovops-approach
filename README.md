@@ -6,41 +6,41 @@ Free course BigData
 ## Course Structure 
 ![structure](https://github.com/eskazemi/Big-Data/blob/main/structure.png)
 ## video
-![Alt text](https://github.com/eskazemi/Big-Data/blob/main/IMG_20210924_204717_719.JPG)
+#### Coming Soon
+
+<img src="https://github.com/eskazemi/Big-Data/blob/main/IMG_20210924_204717_719.JPG" alt="drawing" width="400" height="400"/>
 
 ## Documentation
 
-[NOSQL](https://linktodocumentation)
--
-[Key-Value Databaes](https://linktodocumentation)
-[Document Database](https://linktodocumentation)
-[Graph Database](https://linktodocumentation)
-[Wide-column Databases -](https://linktodocumentation)
-[Multi Model Databases -](https://linktodocumentation)
-[Time Series DBMS -](https://linktodocumentation)
-[Suchmaschinen DBMS](https://linktodocumentation)
+### [NOSQL](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/NoSQL)
+- [Key-Value Databaes](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/NoSQL/Key-Value%20Databases)
+- Document Database
+- Graph Database
+- Wide-column Databases
+- Multi Model Databases
+- Time Series DBMS
+- Suchmaschinen DBMS
 
-[RDBMS](https://linktodocumentation)
--
-[SQL](https://linktodocumentation)
-[SQL Trigger](https://linktodocumentation)
-[index](https://linktodocumentation)
-[PostgreSQL](https://linktodocumentation)
-[MySQL](https://linktodocumentation)
-[MariaDB](https://linktodocumentation)
-[SQL Server](https://linktodocumentation)
+### [RDBMS](https://linktodocumentation)
+- SQL
+- SQL Trigger
+- index
+- PostgreSQL
+- MySQL
+- MariaDB
+- SQL Server
 
-[Apache Hadoop and Map Reduce](https://linktodocumentation)
+[Apache Hadoop and Map Reduce]()
 -
-[Apache Hive -]()
-[Apache Pig -]()
-[Apache Sqoop - ]()
-[Apache Hbase Database -]()
-[Hadoop - ]()
-[Map Reduce]()
+- Apache Hive
+- Apache Pig 
+- Apache Sqoop
+- Apache Hbase Database
+- Hadoop
+- Map Reduce
 
-[Concepts Basic and system design](https://linktodocumentation)
--
+### [Concepts Basic and system design](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/Concepts%20Basic%20and%20System%20Design)
+- [DNS](https://github.com/eskazemi/Big-data-with-the-Dovops-approach/tree/main/Documents/Concepts%20Basic%20and%20System%20Design)
 - Replication
 - CAP Theory
 - Consistence Hashing
@@ -57,5 +57,4 @@ Free course BigData
 
 ## 🔗 Links
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eskazemi/)
-
 
